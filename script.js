@@ -22,6 +22,8 @@ input.addEventListener("keypress", function(event) {
 // Executa a função quando o usuário clicar no elemento
 btnLimpaLista.addEventListener("click", () => {
   contador.innerText = "";
+  cont = 0
+  input.value = ""
   // Caso a lista esteja diferente de vazia, lista recebe vazia
   if(lista.innerHTML != "") {
     lista.innerHTML = ""
